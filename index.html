@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link  href="image/Calculator-icon.webp" rel="shortcut icon" >
+    <link href="StyleSheet.css" rel="StyleSheet">
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="StyleSheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 mt-3 h-style text-center" >
+                  <h1 class="font">CALCULATOR</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="pt-2">
+            <input id="answer" class="answer" type="text" placeholder="0">
+        </div>
+        <div>
+            <button class="clrBtn" onclick="clrAnswer()">C</button>
+        </div>
+        <div>
+            <button class="calBtn" onclick="getNumber('7')">7</button>
+            <button class="calBtn" onclick="getNumber('8')">8</button>
+            <button class="calBtn" onclick="getNumber('9')">9</button>
+            <button class="calBtn" onclick="getNumber('*')">*</button>
+        </div>
+        <div>
+            <button class="calBtn" onclick="getNumber('4')">4</button>
+            <button class="calBtn" onclick="getNumber('5')">5</button>
+            <button class="calBtn" onclick="getNumber('6')">6</button>
+            <button class="calBtn" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="calBtn" onclick="getNumber('1')">1</button>
+            <button class="calBtn" onclick="getNumber('2')">2</button>
+            <button class="calBtn" onclick="getNumber('3')">3</button>
+            <button class="calBtn" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="calBtn" onclick="getNumber('.')">.</button>
+            <button class="calBtn" onclick="getNumber('0')">0</button>
+            <button class="calBtn1" onclick="getAnswer()">=</button>
+            <button class="calBtn" onclick="getNumber('/')">/</button>
+        </div>
+    </div>
+<footer class=" mt-5 pt-4">
+    <div class="copyrights">
+        <div class="container mt-4 pt-4">
+            <div class="row  footer-bg">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center ">
+                    <p  class="footer-company-name" style="font-weight: bolder; color: rgb(8, 8, 8)";>All Rights Reserved. &copy; 2020 <a style=" font-weight: bolder; color: rgb(17, 17, 17);" href="#">Calculator</a> Design By : 
+                    <p">Maaz Ahmed Shaikh</p>
+                </div>
+            </div>
+        </div>
+       </div> 
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
